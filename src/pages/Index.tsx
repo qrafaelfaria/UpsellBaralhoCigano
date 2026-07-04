@@ -146,7 +146,7 @@ const Index = () => {
 
       <div className="mx-auto w-full max-w-[480px] px-4">
         {/* HERO */}
-        <section className="pt-6 pb-10 text-center">
+        <section className="pt-6 pb-4 text-center">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-secondary border border-border px-3 py-1 text-xs font-semibold text-muted-foreground mb-4">
             Oportunidade única de agradecimento
           </div>
@@ -189,7 +189,7 @@ const Index = () => {
         </section>
 
         {/* T-SHIRTS */}
-        <section className="py-2 border-t border-border mb-4">
+        <section className="py-4 border-t border-border mb-4">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-foreground`}>
             Veja alguns páginas do guia
           </h2>
