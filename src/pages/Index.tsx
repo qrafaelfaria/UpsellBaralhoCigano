@@ -2,12 +2,12 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/01.png";
-import tshirt2 from "@/assets/02.png";
-import tshirt3 from "@/assets/03.png";
-import tshirt4 from "@/assets/04.png";
-import tshirt5 from "@/assets/05.png";
-import tshirt6 from "@/assets/06.png";
+import tshirt1 from "@/assets/Tableau01.png";
+import tshirt2 from "@/assets/Tableau02.png";
+import tshirt3 from "@/assets/Tableau03.png";
+import tshirt4 from "@/assets/Tableau04.png";
+import tshirt5 from "@/assets/Tableau05.png";
+import tshirt6 from "@/assets/Tableau06.png";
 
 import HeroCopa from "@/assets/UpsellHero.jpg";
 import BonusCard from "@/components/BonusCard";
@@ -53,9 +53,6 @@ const tshirts = [
   { src: tshirt1, alt: "Estampa Faith Over Fear" },
   { src: tshirt2, alt: "Estampa Cristo é Rei" },
   { src: tshirt3, alt: "Estampa Salmo 23" },
-  { src: tshirt4, alt: "Estampa Filhos de Deus" },
-  { src: tshirt5, alt: "Estampa Cristo é Rei" },
-  { src: tshirt6, alt: "Estampa Cristo é Rei" },
 ];
 
 
@@ -199,7 +196,7 @@ const Index = () => {
             {tshirts.map((t, index) => (
               <div
                 key={`${t.alt}-${index}`}
-                className="snap-center shrink-0 w-[100%] aspect-[16/9] rounded-2xl overflow-hidden"
+                className="snap-center shrink-0 w-[70vw] rounded-2xl overflow-hidden"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
