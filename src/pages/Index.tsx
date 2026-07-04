@@ -188,7 +188,7 @@ const Index = () => {
         {/* T-SHIRTS */}
         <section className="py-4 border-t border-border mb-4">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-foreground`}>
-            Veja alguns páginas do guia
+            Veja algumas páginas do guia
           </h2>
           <p className="mt-2 text-sm text-muted-foreground text-center">Deslize para o lado pra ver mais</p>
 
