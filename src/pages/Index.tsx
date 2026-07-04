@@ -133,6 +133,8 @@ const Index = () => {
     }
   }, [currentSlide]);
 
+
+
   return (
     <main className="bg-[#f3eae2] text-foreground">
       {/* Top urgency bar */}
@@ -164,7 +166,7 @@ const Index = () => {
           </div>
         </section>
 
-          <div className="mt-2 mb-4">
+          <div className="mt-2 mb-2">
             <img 
               src={HeroCopa} 
               alt="Atividades Festa Junina" 
@@ -174,7 +176,7 @@ const Index = () => {
           </div>
 
 
-          <section className="py-2">
+          <section className="">
           <div className="relative text-center">
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-bold text-lg sm:text-lg">
@@ -184,16 +186,10 @@ const Index = () => {
           </div>
         </section>
 
-          <div className="mt-2">
-            <HeroCTA>Garantir Acesso</HeroCTA>
-            <p className="mt-3 text-center text-xs font-bold text-muted-foreground inline-flex w-full items-center justify-center gap-1.5">
-            Disponível somente nesta etapa. Depois, essa condição pode não aparecer novamente.
-            </p>
-          </div>
         </section>
 
         {/* T-SHIRTS */}
-        <section className="py-6 border-t border-border">
+        <section className="py-2 border-t border-border mb-4">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-foreground`}>
             Veja alguns páginas do guia
           </h2>

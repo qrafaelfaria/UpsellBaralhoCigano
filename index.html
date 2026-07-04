@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
 
+<script src="https://wiapy.com/sell/1.0.0/sell.min.js"></script>
+
 <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
   data-utmify-prevent-xcod-sck
@@ -42,5 +44,21 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <div id="wiapy_upsell"></div>
+    <script>
+      initWiapyUpsell({
+        linkUrl: "https://pay.wiapy.com/checkout/6a485c8224d966d792ffb212",
+        linkText: "SIM, EU ACEITO ESSA OFERTA",
+        styles: {
+          backgroundColor: "#6b1b93",
+          hoverBackgroundColor: "#00b85a",
+          fontSize: "17px",
+          borderRadius: "10px"
+        },
+        refusalLinkUrl: "https://wiapy.com/login",
+        refusalLinkText: "Não, obrigado",
+        refusalLinkColor: "#000000"
+      });
+    </script>
   </body>
 </html>
