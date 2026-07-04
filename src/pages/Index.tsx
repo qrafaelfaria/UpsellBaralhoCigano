@@ -136,9 +136,9 @@ const Index = () => {
   return (
     <main className="bg-background text-foreground">
       {/* Top urgency bar */}
-      <div className="w-full bg-gradient-urgency text-urgency-foreground text-center text-xs sm:text-sm font-bold py-2 px-3">
+      <div className="w-full bg-gradient-urgency text-urgency-foreground text-center text-sm sm:text-sm font-bold py-2 px-3">
         <span className="inline-flex items-center gap-1.5">
-          <Flame className="w-4 h-4" /> 50% OFF acaba em {m}:{s}
+        ⚠️ Oferta única de pós-compra: adicione o material complementar antes de sair desta página
         </span>
       </div>
 
@@ -146,13 +146,25 @@ const Index = () => {
         {/* HERO */}
         <section className="pt-6 pb-10 text-center">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-secondary border border-border px-3 py-1 text-xs font-semibold text-muted-foreground mb-4">
-            ⭐⭐⭐⭐⭐ +4.300 avaliações
+            Oportunidade única de agradecimento
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">36 Cartas do Baralho Cigano</span> em Mapas Mentais
+            <span className="text-foreground">Muito obrigado por garantir os</span> Mapas Mentais
             <br />
           </h1>
+
+           <section className="py-6">
+          <div className="relative text-center">
+            {/* Decorative notch */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
+              <p className="font-medium text-lg sm:text-lg">
+               Em forma de agradecimento, liberamos uma oportunidade única para adicionar o Guia da Grande Tiragem (Grand Tableau) ao seu pedido por apenas R$17,90.
+              </p>
+            </div>
+          </div>
+        </section>
 
           <div className="mt-6 mb-4">
             <img 
@@ -162,20 +174,6 @@ const Index = () => {
               loading="eager"
             />
           </div>
-
-         {/* INFO SECTION */}
-        <section className="py-6">
-          <div className="relative rounded-[2rem] bg-success/5 border border-border p-8 sm:p-10 text-center">
-            {/* Decorative notch */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-2 bg-foreground/80 rounded-full"></div>
-
-            <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
-              <p className="font-medium text-lg sm:text-lg">
-               Aprenda a ler e interpretar todas as 36 Cartas do Baralho Cigano de forma Simples, Visual e Organizada.
-              </p>
-            </div>
-          </div>
-        </section>
 
           <div className="mt-2">
             <HeroCTA>Garantir Acesso</HeroCTA>
